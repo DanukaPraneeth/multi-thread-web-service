@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.danuka.MyJerseyPageTest" time="0.903" tests="2" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk1.8.0_144/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/administrator/Danuka/Learning space/Welaya2/multi-thread-web-service/jersey-webservice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/administrator/Danuka/Learning space/Welaya2/multi-thread-web-service/jersey-webservice"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk1.8.0_144/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.18.0-25-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/administrator"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="administrator"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk1.8.0_144/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/jdk1.8.0_144/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk1.8.0_144/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_144/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_144/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testGetSum_for_SimpleValidInputs" classname="com.danuka.MyJerseyPageTest" time="0.731">
+    <failure message="expected:&lt;[3]&gt; but was:&lt;[&lt;html&gt;&lt;head&gt;&lt;title&gt;Grizzly 2.3.19&lt;/title&gt;&lt;style&gt;&lt;!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--&gt;&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;div class=&quot;header&quot;&gt;Not Found&lt;/div&gt;&lt;div class=&quot;body&quot;&gt;Resource identified by path &apos;/&apos;, does not exist.&lt;/div&gt;&lt;div class=&quot;footer&quot;&gt;Grizzly 2.3.19&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[3]> but was:<[<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>]>
+	at com.danuka.MyJerseyPageTest.testGetSum_for_SimpleValidInputs(MyJerseyPageTest.java:109)
+]]></failure>
+    <system-err><![CDATA[Jul 10, 2019 10:08:44 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Jul 10, 2019 10:08:44 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Jul 10, 2019 10:08:44 PM org.glassfish.grizzly.servlet.WebappContext deploy
+INFO: Starting application [GrizzlyContext] ...
+Jul 10, 2019 10:08:44 PM org.glassfish.grizzly.servlet.WebappContext initServlets
+INFO: [GrizzlyContext] Servlet [org.glassfish.jersey.servlet.ServletContainer] registered for url pattern(s) [[/*]].
+Jul 10, 2019 10:08:44 PM org.glassfish.grizzly.servlet.WebappContext deploy
+INFO: Application [GrizzlyContext] is ready to service requests.  Root: [/].
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Sending client request on thread jersey-client-async-executor-0
+2 > POST http://localhost:9998/
+2 > Content-Type: text/plain
+1
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Sending client request on thread jersey-client-async-executor-1
+1 > POST http://localhost:9998/
+1 > Content-Type: text/plain
+2
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Sending client request on thread jersey-client-async-executor-2
+3 > POST http://localhost:9998/
+3 > Content-Type: text/plain
+end
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.ServletHandler loadServlet
+INFO: Loading Servlet: org.glassfish.jersey.servlet.ServletContainer
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Client response received on thread jersey-client-async-executor-0
+2 < 404
+2 < Content-Length: 1060
+2 < Content-Type: text/html;charset=ISO-8859-1
+2 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+2 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Client response received on thread jersey-client-async-executor-2
+3 < 404
+3 < Content-Length: 1060
+3 < Content-Type: text/html;charset=ISO-8859-1
+3 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+3 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Client response received on thread jersey-client-async-executor-1
+1 < 404
+1 < Content-Length: 1060
+1 < Content-Type: text/html;charset=ISO-8859-1
+1 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+1 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+]]></system-err>
+  </testcase>
+  <testcase name="testGetSum_for_ComplexValidValidInputs" classname="com.danuka.MyJerseyPageTest" time="0.096">
+    <error message="Entity input stream has already been closed." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Entity input stream has already been closed.
+	at com.danuka.MyJerseyPageTest.testGetSum_for_ComplexValidValidInputs(MyJerseyPageTest.java:126)
+</error>
+    <system-err><![CDATA[Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-1] Started.
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.WebappContext deploy
+INFO: Starting application [GrizzlyContext] ...
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.WebappContext initServlets
+INFO: [GrizzlyContext] Servlet [org.glassfish.jersey.servlet.ServletContainer] registered for url pattern(s) [[/*]].
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.WebappContext deploy
+INFO: Application [GrizzlyContext] is ready to service requests.  Root: [/].
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Sending client request on thread jersey-client-async-executor-2
+2 > POST http://localhost:9998/
+2 > Content-Type: text/plain
+4
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Sending client request on thread jersey-client-async-executor-1
+3 > POST http://localhost:9998/
+3 > Content-Type: text/plain
+3
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Sending client request on thread jersey-client-async-executor-3
+4 > POST http://localhost:9998/
+4 > Content-Type: text/plain
+end
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Sending client request on thread jersey-client-async-executor-0
+1 > POST http://localhost:9998/
+1 > Content-Type: text/plain
+end
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.ServletHandler loadServlet
+INFO: Loading Servlet: org.glassfish.jersey.servlet.ServletContainer
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.ServletHandler doServletService
+SEVERE: service exception:
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+	at org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+	at org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+	... 7 more
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.ServletHandler doServletService
+SEVERE: service exception:
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+	at org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+	at org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+	... 7 more
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 2 * Client response received on thread jersey-client-async-executor-2
+2 < 500
+2 < Connection: close
+2 < Content-Length: 2797
+2 < Content-Type: text/html;charset=ISO-8859-1
+2 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+2 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Internal Error</div><div class="body"><b>java.lang.NullPointerException</b><pre>     1: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+     2: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     3: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     4: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     5: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     6: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+     7: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+     8: java.lang.Thread.run(Thread.java:748)
+</pre><b>Root Cause: java.lang.NullPointerException</b><pre>     1: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+     2: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+     3: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+     4: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+     5: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     6: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     7: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     8: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     9: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+    10: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+        ... 1 more</pre>Please see the log for more detail.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.servlet.ServletHandler doServletService
+SEVERE: service exception:
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+	at org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+	at org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+	at org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+	... 7 more
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 4 * Client response received on thread jersey-client-async-executor-3
+4 < 500
+4 < Connection: close
+4 < Content-Length: 2797
+4 < Content-Type: text/html;charset=ISO-8859-1
+4 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+4 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Internal Error</div><div class="body"><b>java.lang.NullPointerException</b><pre>     1: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+     2: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     3: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     4: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     5: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     6: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+     7: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+     8: java.lang.Thread.run(Thread.java:748)
+</pre><b>Root Cause: java.lang.NullPointerException</b><pre>     1: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+     2: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+     3: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+     4: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+     5: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     6: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     7: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     8: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     9: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+    10: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+        ... 1 more</pre>Please see the log for more detail.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 1 * Client response received on thread jersey-client-async-executor-0
+1 < 500
+1 < Connection: close
+1 < Content-Length: 2797
+1 < Content-Type: text/html;charset=ISO-8859-1
+1 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+1 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Internal Error</div><div class="body"><b>java.lang.NullPointerException</b><pre>     1: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:151)
+     2: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     3: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     4: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     5: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     6: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+     7: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+     8: java.lang.Thread.run(Thread.java:748)
+</pre><b>Root Cause: java.lang.NullPointerException</b><pre>     1: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+     2: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+     3: org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+     4: org.glassfish.grizzly.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:147)
+     5: org.glassfish.grizzly.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:106)
+     6: org.glassfish.grizzly.servlet.ServletHandler.doServletService(ServletHandler.java:224)
+     7: org.glassfish.grizzly.servlet.ServletHandler.service(ServletHandler.java:173)
+     8: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     9: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+    10: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+        ... 1 more</pre>Please see the log for more detail.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.jersey.filter.LoggingFilter log
+INFO: 3 * Client response received on thread jersey-client-async-executor-1
+3 < 404
+3 < Content-Length: 1060
+3 < Content-Type: text/html;charset=ISO-8859-1
+3 < Date: Wed, 10 Jul 2019 16:38:45 GMT
+3 < Server: grizzly/2.3.19
+<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>
+
+Jul 10, 2019 10:08:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.danuka.MyJerseyPageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.903 sec <<< FAILURE! - in com.danuka.MyJerseyPageTest
+testGetSum_for_SimpleValidInputs(com.danuka.MyJerseyPageTest)  Time elapsed: 0.731 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[3]> but was:<[<html><head><title>Grizzly 2.3.19</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Not Found</div><div class="body">Resource identified by path '/', does not exist.</div><div class="footer">Grizzly 2.3.19</div></body></html>]>
+	at com.danuka.MyJerseyPageTest.testGetSum_for_SimpleValidInputs(MyJerseyPageTest.java:109)
+
+testGetSum_for_ComplexValidValidInputs(com.danuka.MyJerseyPageTest)  Time elapsed: 0.096 sec  <<< ERROR!
+java.lang.IllegalStateException: Entity input stream has already been closed.
+	at com.danuka.MyJerseyPageTest.testGetSum_for_ComplexValidValidInputs(MyJerseyPageTest.java:126)
+
